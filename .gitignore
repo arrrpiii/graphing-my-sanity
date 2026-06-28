@@ -1,0 +1,15 @@
+# Environment & secrets
+.env
+
+# Personal notes
+notes.txt
+
+# Excluded dependency / research folder
+agno/
+
+# Python virtual environment (added as a recommendation - delete this line if you want it pushed)
+venv/
+
+# Python bytecode
+__pycache__/
+*.pyc
