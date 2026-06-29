@@ -37,7 +37,7 @@ builder.add_edge("polish_draft", END)
 
 graph = builder.compile()
 
-result = graph.invoke({"topic": "LangGraph implementation"})
+result = graph.invoke({"topic": "LangGraph implementation"}) # the parameter initializes the State
 
 print(result["topic"])
 print(result["outline"])
